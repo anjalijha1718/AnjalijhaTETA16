@@ -1,0 +1,110 @@
+.heatmap-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.heatmap-container p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
+  font-style: italic;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls label {
+  font-weight: bold;
+}
+
+.controls select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.correlation-results {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+}
+
+.correlation-display h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.correlation-value-box {
+  display: inline-block; /* For centering */
+  padding: 1.5rem 2.5rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.correlation-value {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.correlation-label {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.correlation-legend {
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+}
+
+.correlation-legend h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.correlation-legend ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.correlation-legend li {
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+}
